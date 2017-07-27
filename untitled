@@ -1,0 +1,157 @@
+
+
+
+{
+	"type": "input",
+	"params": 
+	{
+		"chaxun1": {"param1":"", "param2":""},
+		"chaxun2": {}
+	}
+
+}
+
+
+输入参数：
+
+{
+	"query1": {"param1":"", "param2":""},
+	"query2": {"param1":"", "param2":""},
+	...
+}
+
+
+返回结果：
+
+{
+	"query1": {"result1":"", "result2":""},
+	"query1": {"result1":"", "result2":""},
+	...
+}
+
+
+
+jsonInpu:
+
+{
+	"vehicleOperationCertificateCheck": 
+	{
+		"vehicleNumber":"xxx",
+		"roadTransportCertificateNo":"xxx",
+		"licensePlateTypeCode","xxx" 
+	}
+}
+
+
+{"vehicleOperationCertificateCheck":{"vehicleNumber":"","roadTransportCertificateNo":"","licensePlateTypeCode":""}}
+
+
+{
+	"personsQualificationCheck": {
+		"identityDocumentInformationCompare": {
+			"iName": "",
+			"iIdCard": ""
+		},
+		"qualificationCertificateQuery": {
+			"qName": "", 
+			"qIdCard": "",
+			"qualificationCertificateNo": "",
+			"countrySubdivisionCode": ""
+		},
+		"DriverLicenceQueryMap": {
+			"dName": "",
+			"dIdCard": "",
+			"type": ""
+		},
+		"badRecordQuery": {
+			"bName": "",
+			"bCardId": ""
+		}
+	},
+	"vehicleQualificationCheck": {
+		"vehicleTravelLicenceCheck": {
+
+		},
+		"vehicleOperationLicenceCheck": {
+			"vehicleNumber": "",
+			"roadTransportCertificateNo": "",
+			"licensePlateTypeCode": ""
+		},
+		"breakRulesCheck": {
+
+		}
+	}
+}
+
+
+{
+    "personsQualificationCheck": {
+        "identityDocumentInformationCompare": {
+            "iName": "", 
+            "iIdCard": ""
+        }, 
+        "qualificationCertificateQuery": {
+            "qName": "", 
+            "qIdCard": "", 
+            "qualificationCertificateNo": "", 
+            "countrySubdivisionCode": ""
+        }, 
+        "DriverLicenceQuery": {
+            "dName": "", 
+            "dIdCard": "", 
+            "type": ""
+        }, 
+        "badRecordQuery": {
+            "bName": "", 
+            "bCardId": ""
+        }
+    }, 
+    "vehicleQualificationCheck": {
+        "vehicleTravelLicenceCheck": { }, 
+        "vehicleOperationLicenceCheck": {}, 
+        "breakRulesCheck": { }
+    }
+}
+
+
+{
+	"人资质监测": {
+		"身份证验证": {
+			"姓名": "",		
+			"身份证号": ""
+		},
+		"上岗证验证": {
+			"姓名": "", 
+			"身份证号": "",
+			"从业资格证号": "",
+			"省份编号": ""
+		},
+		"驾驶证验证": {
+			"姓名": "",
+			"身份证号": "",
+			"准驾车型" ""
+		},
+		"不良记录查询": {
+			"姓名": "",
+			"身份证号": ""
+		}
+	},
+	"车资质监测": {
+		"车辆行驶证验证": {
+
+		},
+		"车辆运营证验证": {
+			"车牌号": "",
+			"车牌颜色": "",
+			"道路运输许可证", ""
+		},
+		"车辆违章记录查询": {
+
+		}
+	}
+}
+
+
+
+
+
